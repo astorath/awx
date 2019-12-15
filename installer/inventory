@@ -150,3 +150,6 @@ secret_key=awxsecret
 # which makes include "optional" - i.e. not fail
 # if file is absent
 #extra_nginx_include="/etc/nginx/awx_extra[.]conf"
+
+# AWX extra settings file template.
+#extra_settings_template="custom.py"
