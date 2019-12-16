@@ -12,10 +12,9 @@
   with_items:
     - environment.sh
     - credentials.py
+    - custom.py
     - docker-compose.yml
     - nginx.conf
-    - "{{ extra_settings_template | d('') }}"
-  when: item | length > 0
   register: awx_compose_config
 
 - name: Render SECRET_KEY file

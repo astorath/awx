@@ -19,3 +19,4 @@ memcached_version: "alpine"
 memcached_host: "memcached"
 memcached_port: "11211"
 
+extra_settings: ""
