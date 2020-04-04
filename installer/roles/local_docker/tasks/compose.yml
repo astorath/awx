@@ -18,6 +18,7 @@
   with_items:
     - environment.sh
     - credentials.py
+    - custom.py
     - docker-compose.yml
     - nginx.conf
     - redis.conf

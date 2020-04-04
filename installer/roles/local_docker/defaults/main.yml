@@ -12,3 +12,4 @@ memcached_hostname: "memcached"
 memcached_port: "11211"
 
 compose_start_containers: true
+extra_settings: ""
